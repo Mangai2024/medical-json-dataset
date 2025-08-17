@@ -1,0 +1,93 @@
+{
+  "patient_id": "P001",
+  "name": "Ravi Kumar",
+  "age": 45,
+  "gender": "Male",
+  "contact": {
+    "phone": "9876543210",
+    "email": "ravi.kumar@example.com"
+  },
+  "medical_history": [
+    {
+      "condition": "Diabetes",
+      "diagnosed_date": "2015-08-10",
+      "medications": [
+        {"name": "Metformin", "dosage": "500mg", "frequency": "Twice daily"}
+      ]
+    },
+    {
+      "condition": "Hypertension",
+      "diagnosed_date": "2018-03-05",
+      "medications": [
+        {"name": "Amlodipine", "dosage": "5mg", "frequency": "Once daily"}
+      ]
+    }
+  ],
+  "visits": [
+    {
+      "date": "2023-10-12",
+      "doctor": "Dr. Anitha",
+      "notes": "Routine check-up, blood sugar controlled"
+    },
+    {
+      "date": "2024-02-20",
+      "doctor": "Dr. Suresh",
+      "notes": "BP slightly high, adjusted medication"
+    }
+  ]
+}
+{
+  "patients": [
+    {
+      "patient_id": "P001",
+      "personal_info": {
+        "name": "Arun Kumar",
+        "age": 35,
+        "gender": "Male",
+        "contact": {
+          "phone": "9876543210",
+          "email": "arun.k@example.com"
+        }
+      },
+      "medical_info": {
+        "diseases": ["Diabetes", "Hypertension"],
+        "medications": [
+          {
+            "name": "Metformin",
+            "dosage": "500mg",
+            "frequency": "Twice daily"
+          },
+          {
+            "name": "Amlodipine",
+            "dosage": "5mg",
+            "frequency": "Once daily"
+          }
+        ],
+        "last_visit": "2025-08-01"
+      }
+    },
+    {
+      "patient_id": "P002",
+      "personal_info": {
+        "name": "Lakshmi Priya",
+        "age": 29,
+        "gender": "Female",
+        "contact": {
+          "phone": "9123456780",
+          "email": "lakshmi.p@example.com"
+        }
+      },
+      "medical_info": {
+        "diseases": ["Thyroid"],
+        "medications": [
+          {
+            "name": "Levothyroxine",
+            "dosage": "50mcg",
+            "frequency": "Once daily"
+          }
+        ],
+        "last_visit": "2025-07-20"
+      }
+    }
+  ]
+}
